@@ -6,7 +6,69 @@
     <title>First tailwind projects</title>
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
-  <body>
-    <h1>hello world</h1>
+  <body class="bg-[#2B2D33]">
+    <nav class="shadow-xl bg-[#2B2D33]">
+      <div class="container mx-auto">
+        <div class="sm:flex justify-between py-5 items-center">
+          <div
+            class="text-white text-xl sm:text-3xl font-bold text-center mb-3"
+          >
+            <a href="#"
+              ><span class="text-[#F65023]">S</span>mart Cod<span
+                class="text-[#F65023]"
+                >ers</span
+              ></a
+            >
+          </div>
+          <div>
+            <ul
+              class="sm:flex text-white text-xl text-center border-t sm:border-hidden"
+            >
+              <li class="mt-4 sm:mt-0">
+                <a href="" class="p-3 text-[#F65023]">Home</a>
+              </li>
+              <li><a href="" class="p-3 hover:text-[#F65023]">Products</a></li>
+              <li><a href="" class="p-3 hover:text-[#F65023]">Blogs</a></li>
+              <li><a href="" class="p-3 hover:text-[#F65023]">Portfolio</a></li>
+              <li><a href="" class="p-3 hover:text-[#F65023]">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div
+        class="text-white sm:flex justify-around text-center container mx-auto border border-indigo-600 border-t-0 h-[80vh] px-10 pt-10"
+      >
+        <div>
+          <h1 class="text-2xl sm:text-5xl mb-5 sm:mb-16">
+            Smart Coders: Learn <br />
+            programming
+          </h1>
+          <button
+            class="bg-indigo-900 px-7 py-3 rounded-full text-xl shadow-xl hover:bg-indigo-950"
+          >
+            Lorem ipsum dolor sit amet.
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 inline-block text-red-500 animate-ping ml-2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+        <div>
+          <img class="animate-pulse" src="image/hero_img.png" alt="" />
+        </div>
+      </div>
+    </header>
   </body>
 </html>
